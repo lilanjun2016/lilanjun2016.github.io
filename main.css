@@ -1,0 +1,476 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: scroll;
+    font-family: BlinkMacSystemFont,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Hiragino Sans GB,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+
+.container {
+    color: white;
+}
+
+.pili-nav-layout {
+    width: 1060px;
+    height: 100%;
+
+}
+
+.pili-nav-logo {
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    height: 24px;
+    margin-top: 28px;
+    float: left;
+}
+
+.pili-nav-logo:hover{
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    opacity: 0.4;
+}
+
+.pili-nav-text {
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    float: right;
+    height: 100%;
+    font-size: 12px;
+    line-height: 80px;
+    margin-right: 56px;
+    color: white;
+    opacity: 1;
+}
+
+.pili-nav-text:hover{
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    opacity: 0.4;
+}
+
+.pili-part1 {
+    text-align: center;
+    font-weight: lighter;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.pili-part1-left{
+    width: 530px;
+    height: 500px;
+    text-align: left;
+}
+
+.pili-part1-right{
+    width: 530px;
+    height: 500px;
+    /*background-color: aquamarine;*/
+}
+
+.pili-slogan1 {
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 260px;
+    opacity: 0;
+}
+
+
+
+.pili-slogan2 {
+    font-size: 60px;
+    padding-top: 10px;
+    font-weight: 100;
+    margin-left: -5px;
+    opacity: 0;
+    /*padding-left: 120px;*/
+}
+
+.pili-slogan3 {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 20px;
+    line-height: 32px;
+    opacity: 0;
+    /*padding-left: 120px;*/
+}
+
+.pili-under-button {
+
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    color: white;
+    margin-top: 49px;
+    width: 212px;
+    height: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    opacity: 0;
+    /* Rectangle: */
+    background: rgba(0, 0, 0, 0.00);
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    cursor: pointer;
+    /*margin-left: 120px;*/
+}
+.pili-under-button:hover{
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+.pili-icon-pdf {
+    display: block;
+    padding-right: 10px;
+}
+
+.pili-phone-big {
+    width: 85%;
+    display: block;
+    padding-top: 120px;
+    /*padding-left: 0px;*/
+    /*padding-right: 80px;*/
+    opacity: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pili-phone-mid {
+    width: 25%;
+    display: block;
+    opacity: 0;
+    margin-left: 650px;
+    padding-left: 80px;
+    transform: rotate(-100deg);
+    -ms-transform: rotate(-100deg); /* Internet Explorer */
+    -moz-transform: rotate(-100deg); /* Firefox */
+    -webkit-transform: rotate(-100deg); /* Safari 和 Chrome */
+    -o-transform: rotate(-100deg); /* Opera */
+}
+
+.pili-phone-min {
+    width: 15%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg); /* Internet Explorer */
+    -moz-transform: rotate(-20deg); /* Firefox */
+    -webkit-transform: rotate(-20deg); /* Safari 和 Chrome */
+    -o-transform: rotate(-20deg); /* Opera */
+}
+
+
+
+.pili-cutline {
+    width: 1060px;
+    height: 1px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.2;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    /*opacity: 0;*/
+}
+
+.pili-part3 {
+    width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0;
+}
+
+.pili-part4 {
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0;
+}
+
+
+.pili-part4-title {
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+.pili-customer-mask-postion{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pili-customer-mask {
+
+    /* Rectangle 6: */
+    background-image: linear-gradient(-90deg, #000000 0%, rgba(0, 0, 0, 0.00) 44%, rgba(0, 0, 0, 0.00) 54%, rgba(0, 0, 0, 0.00) 60%, #000000 100%);
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pili-part5 {
+    width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 140px;
+    opacity: 0;
+}
+
+.pili-part3-title {
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+
+.pili-part3-midbox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.pili-part3-num {
+    margin-top: 62px;
+    float: left;
+}
+
+.pili-innerbox-num {
+    font-size: 72px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
+.pili-innerbox-num1 {
+    font-size: 60px;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+.pili-innerbox-text {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.pili-innerbox-script {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.pili-part5-button {
+    width: 212px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    /* Rectangle: */
+    background: rgba(0, 0, 0, 0.00);
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    cursor: pointer;
+}
+
+
+.pili-part5-button:hover {
+
+    /* Rectangle: */
+    background: white;
+    color: black;
+    font-weight: 500;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+}
+
+.scroll_div {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 60px;
+}
+
+.scroll_div img {
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li {
+    display: inline;
+    padding: 1px;
+}
+
+.pili-part5-left {
+    width: 100%;
+    text-align: center;
+    height: 500px;
+}
+
+
+.pili-part5-slogan {
+    font-size: 34px;
+    line-height: 48px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.pili-part5-script {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    padding-top: 42px;
+}
+
+.pili-clear-double {
+    clear: both;
+}
+
+
+
+footer {
+    color: white;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.pili-footer {
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pili-footer-left {
+    float: left;
+    line-height: 80px;
+}
+
+.pili-footer-right {
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    opacity: 1;
+    float: right;
+    line-height: 80px;
+}
+
+.pili-footer-right:hover{
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s; /* Firefox 4 */
+  -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+  -o-transition-duration: 0.3s; /* Opera */
+  opacity: 0.4;
+}
+
+.pili-product-script {
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    padding-right: 30px;
+    opacity: 1;
+    font-weight: normal;
+}
+
+.pili-product-script:hover{
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s; /* Firefox 4 */
+  -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+  -o-transition-duration: 0.3s; /* Opera */
+  opacity: 0.4;
+}
+
+.pili-product-github {
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+    opacity: 1;
+    font-weight: normal;
+}
+
+.pili-product-github:hover{
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s; /* Firefox 4 */
+  -webkit-transition-duration: 0.3s; /* Safari 和 Chrome */
+  -o-transition-duration: 0.3s; /* Opera */
+  opacity: 0.4;
+}
+
+
+.pili-product-powerby {
+    opacity: 1;
+}
+
+
+
+.pili-bg-animate{
+    width: 100%;
+    height: 1000px;
+    /*background-color: red;*/
+    position: absolute;
+    z-index: -1;
+}
